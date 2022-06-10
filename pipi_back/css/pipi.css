@@ -1,0 +1,153 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: Microsoft JhengHei;
+    font-size: 20px;
+}
+h1 {
+    font-size: 2em;
+}
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.pointer{
+    cursor: pointer;
+    background-color:black;
+    color:white;
+    padding:3px 5px;
+}
+.pipilist ul{
+    display:flex;
+    justify-content:center;
+}
+.pipilist li{
+    display:flex;
+    justify-content:center;
+    border-bottom:1px black solid;
+    padding:10px;
+}
+
+.pipilist ul:not(.ul_head):hover{
+    background-color: rgb(221, 221, 221);
+}
+.pipilist .li_1{
+    width:10%;
+    align-items: center;
+}
+.pipilist .li_2{
+    width:40%;
+    align-items: center;
+}
+.pipilist .li_3{
+    width:20%;
+    align-items: center;
+}
+.pipilist .li_4{
+    width:30%;
+    align-items: center;
+}
+.pipilist .li_4 div{
+    margin:5px 10px;
+}
+#create_btn{
+    background-color:yellow;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.blockbg{
+    position:fixed;
+    display:none;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.pipi_item_info{
+    position: absolute;
+    height:80%;
+    overflow:auto;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #6F868E;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: auto;
+    padding:30px;
+    padding-top:0px;
+}
+.pipi_item_info a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.pipi_item_action{
+    width: 90%;
+    display: flex;
+    margin: 25px 0 5px 25px;
+    font-size: 20px;
+    align-items: center;
+}
+.pipi_item_action input{
+    font-size: 20px;
+    height: 27px;
+    padding:3px 5px;
+}
+.pipi_item_action #web{
+    width: 80%;
+}
+#popLayer a{
+    color: #fff;
+    position: absolute;
+    right: 33px;
+}
+#action_option ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#action_option li{
+    padding:0px 15px;
+}
+#action_option a{
+    font-weight: bold;
+    color: blue;
+
+}
+#action_option #btn02{
+    color: red;
+}
+#action_option li{
+    border-radius: 5px;
+    background-color:rgb(148, 148, 148);
+    margin:0 30px;
+    transition: all 0.5s;
+}
+#action_option li:hover{
+    background-color:white;
+}
+#web_show{
+    display: none;
+}
+.dontshow{
+    height:0px;
+}
+.dontshow li{
+    display: none;
+}
